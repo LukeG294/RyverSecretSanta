@@ -157,15 +157,12 @@ async def main():
                     
                 
                 sendad = str(ad)
-            print("Shuffling list and sending...")
+                print("Shuffling list and sending...")
                 
                 
                 
               
-            if send == (iteminlist):
-                await my_friend.send_message("Uh oh. Looks like you got yourself, I'm sorry about that. I have notified the organizer to reshuffle.",creator)
-                re = input("It looks like there was a problem and 1 or more users happened to get themselves to gift. Please say reshuffle to reshuffle.")
-                
+            
                         
                       
                         
@@ -176,16 +173,16 @@ async def main():
             
            
                      
-            else:    
+                
                 await my_friend.send_message("Hey there! You've been invited to the secret santa! Please gift **`"+send+"`** a gift worth around $"+price+". You can send their gift to the address: `"+iteminad+"`. Please get this done by "+date+". Thanks! If you have any questions, you can message the organizer: `"+username+"`",creator)
                
                 
                 await my_friend.send_message("**Super secret info above - please do not look Secret Santa host! :santa:**",creator)
                 
-                print("Please try not to look sat the secret santa results in DM's. I have provided all neccesary info to the users and you should be good to go!")
+                                   
+             print("Please try not to look sat the secret santa results in DM's. I have provided all neccesary info to the users and you should be good to go!")
+             await forum_or_team.send_message("I just messaged everyone participating with their neccesary info! See you all later! :santa:",creator)      
 
-                await forum_or_team.send_message("I just messaged everyone participating with their neccesary info! See you all later! :santa:",creator)            
-            
                 
                 
             
