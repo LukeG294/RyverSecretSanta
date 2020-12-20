@@ -180,8 +180,8 @@ async def main():
                 await my_friend.send_message("**Super secret info above - please do not look Secret Santa host! :santa:**",creator)
                 
                                    
-             print("Please try not to look sat the secret santa results in DM's. I have provided all neccesary info to the users and you should be good to go!")
-             await forum_or_team.send_message("I just messaged everyone participating with their neccesary info! See you all later! :santa:",creator)      
+                print("Please try not to look sat the secret santa results in DM's. I have provided all neccesary info to the users and you should be good to go!")
+                await forum_or_team.send_message("I just messaged everyone participating with their neccesary info! See you all later! :santa:",creator)      
 
                 
                 
